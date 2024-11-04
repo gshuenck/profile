@@ -6,7 +6,30 @@ body {
   /* font-family: "Rubik Wet Paint", serif;
   font-weight: 400;
   font-style: normal;*/
+  background: url("https://cdn.dribbble.com/users/13906/screenshots/2397369/031---dribbble-shot.jpg") 0 0 / 200px 200px repeat;
 }
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #principal {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #principal {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #principal {
+    width: 300px;
+  }
+}
+
 
 #principal{
   margin: 100px;
@@ -108,7 +131,6 @@ section{
 }
 
 .contato img {
-
   width: 40px;
   padding-left: 10px;
   height: auto;
