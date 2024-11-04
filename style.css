@@ -64,20 +64,6 @@ body {
 
 }
 
-#experiencia {
-  width: 650px;
-  padding: 10px;
-  box-shadow: 3px 3px 3px;
-  border-radius: 10px;
-}
-
-#formacao{
-  width: 650px;
-  padding: 10px;
-  box-shadow: 3px 3px 3px;
-  border-radius: 10px;
-}
-
 #hobbies{
     width: 650px;
     padding: 10px;
@@ -135,4 +121,3 @@ section{
   padding-left: 10px;
   height: auto;
 }
-
